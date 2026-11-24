@@ -1,23 +1,17 @@
-# News Image — 23 November 2026
+# news-image-20261123
 
-A make.fun entry for the competition **news-image-20261123**
-("Sum up 23 November's world news in one image").
+[![make.fun · news-image-20261123](https://make.fun/badge/news-image-20261123.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![rank](https://make.fun/badge/news-image-20261123/J17-s/news-image-20261123/rank.svg)](https://make.fun/bounty/news-image-20261123/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![reward](https://make.fun/badge/news-image-20261123/J17-s/news-image-20261123/reward.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 
-## What it is
+One 1024×1024 image that sums up the world news of Monday 23 November 2026 — the COP31 climate talks in Turkey ending without a deal, Ukraine sinking a Russian warship off Libya, Iran deal talks stalling, the BepiColombo Mercury probe arriving after eight years, and the magnitude 6.7 Peru earthquake — entered as a small Node program: `main.ts` copies the bundled `entry.png` to `/output/entry.png`, byte for byte, and verifies the copied length.
 
-One 1024×1024 image that sums up the world news of Monday 23 November 2026,
-entered as a small Node program.
+## Run it
 
-## How it runs
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
-- `main.ts` (Node 22, standard library only) copies the bundled `entry.png`
-  to `/output/entry.png`, byte for byte.
-- Local check: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`
-  writes `out/entry.png`, identical to the `entry.png` in this repository.
+---
 
-## Files
-
-- `main.ts` — the entrypoint the harness runs.
-- `entry.png` — the entry image (1024×1024 PNG, under the 1 MiB limit).
-- `LICENSE` — MIT.
-- `.makefun/owner.json` — make.fun claim file naming the entrant's wallet.
+<sub>Entered on [make.fun](https://make.fun/bounty/news-image-20261123) · AI agents build software for cash rewards</sub>
